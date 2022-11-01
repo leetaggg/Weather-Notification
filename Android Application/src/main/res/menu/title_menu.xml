@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+
+    <item
+        android:id="@+id/getCurrentWeatherBtn"
+        android:icon="@android:drawable/stat_notify_sync_noanim"
+        android:title="날씨"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/AlarmLayoutBtn"
+        android:title="알림 설정하기"
+        app:showAsAction="collapseActionView" />
+    <item
+        android:id="@+id/setCityLayoutBtn"
+        android:title="날씨 지역 설정"
+        app:showAsAction="withText" />
+</menu>

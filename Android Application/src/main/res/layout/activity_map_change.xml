@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MapChangeActivity">
+
+    <EditText
+        android:id="@+id/AddressEdit"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        tools:ignore="SpeakableTextPresentCheck"
+        tools:text="주소를 입력하세요" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/ConversionBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="변환 하기" />
+
+        <Button
+            android:id="@+id/MapBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="지도 보기" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/AddressResultText"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:text="조회한 주소정보 출력"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/SaveBtn"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:text="저장 및 설정" />
+
+        <Button
+            android:id="@+id/DelectBtn"
+            android:layout_width="209dp"
+            android:layout_height="wrap_content"
+            android:text="삭제 하기" />
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0" >
+
+        <RadioButton
+            android:id="@+id/RdBtnCurr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="현재 위치" />
+
+        <RadioButton
+            android:id="@+id/RdBtnOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="없음" />
+
+        <RadioButton
+            android:id="@+id/RdBtnTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="없음" />
+
+        <RadioButton
+            android:id="@+id/RdBtnThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="없음" />
+
+    </RadioGroup>
+
+</LinearLayout>

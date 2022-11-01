@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">날씨 알리미</string>
+    <string name="GPSButton">GPS</string>
+    <string name="WeatherButton">날씨</string>
+    <string name="NotificationBut">알림</string>
+    <string name="GpsText">Latitude: \nLongitude: </string>
+    <string name="TimeText"> 지역 설정을 먼저 해주세요 </string>
+    <string name="CityText">  </string>
+    <string name="weatherView">weather</string>
+    <string name="TempText">  </string>
+    <string name="Alarmbtn">알람 화면</string>
+    <string name="Alarmtime">Time</string>
+    <string name="Alarmtimebtn">시간 지정</string>
+    <string name="Alarmcancelbtn">알람 취소</string>
+    <string name="pp_namealarm">Alarm</string>
+    <string name="change_time">시간 재설정</string>
+    <string name="on_alarm">알람 켜기</string>
+    <string name="description">  </string>
+
+
+</resources>
